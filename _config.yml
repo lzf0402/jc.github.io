@@ -77,6 +77,7 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: git@github.com:lzf0402/jiangcai.git
+deploy:
+  type: git
+  repo: git@github.com:lzf0402/jiangcai.git
 branch: master
-type: github
